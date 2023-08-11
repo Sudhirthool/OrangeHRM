@@ -9,6 +9,7 @@ def setup():
     # options.binary_location = 'C:\\Program Files\\Mozilla Firefox\\firefox.exe'
     # driver = webdriver.Firefox(options=options)
     driver = webdriver.Firefox()
+    # TRY IN GIT REPOSITORY
     driver.maximize_window()
     driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     return driver
